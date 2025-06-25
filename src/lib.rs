@@ -1,3 +1,4 @@
+// Hex (crate) - used for encoding and decoding hex strings
 use hex::{decode, encode};
 
 pub fn decode_hex(hex_str: &str) -> Result<Vec<u8>, String> {
